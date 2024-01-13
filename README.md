@@ -1,0 +1,1 @@
+This is the ALX 0x00 AIRBNB_CLONE - Console project
