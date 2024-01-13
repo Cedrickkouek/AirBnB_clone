@@ -190,7 +190,7 @@ create <class>
 
 ```bash
 (hbnb) create BaseModel
-6cfb47c4-a434-4da7-ac03-2122624c3762
+7a22a513-5fa7-491f-9f9b-61ead8e28804
 (hbnb)
 ```
 
@@ -202,7 +202,7 @@ show <class> <id>
 
 ```bash
 (hbnb) show BaseModel 6cfb47c4-a434-4da7-ac03-2122624c3762
-[BaseModel] (a) [BaseModel] (6cfb47c4-a434-4da7-ac03-2122624c3762) {'id': '6cfb47c4-a434-4da7-ac03-2122624c3762', 'created_at': datetime.datetime(2021, 11, 14, 3, 28, 45, 571360), 'updated_at': datetime.datetime(2021, 11, 14, 3, 28, 45, 571389)}
+[BaseModel] (7a22a513-5fa7-491f-9f9b-61ead8e28804) {'id': '7a22a513-5fa7-491f-9f9b-61ead8e28804', 'created_at': datetime.datetime(2024, 1, 13, 17, 25, 21, 674588), 'updated_at': datetime.datetime(2024, 1, 13, 17, 25, 21, 674651)}
 (hbnb)
 ```
 
@@ -213,9 +213,9 @@ show <class> <id>
 
 ```bash
 (hbnb) create User
-0c98d2b8-7ffa-42b7-8009-d9d54b69a472
-(hbnb) destroy User 0c98d2b8-7ffa-42b7-8009-d9d54b69a472
-(hbnb) show User 0c98d2b8-7ffa-42b7-8009-d9d54b69a472
+13d3b979-8bf8-41ac-8168-66c36c63e588
+(hbnb) destroy User 13d3b979-8bf8-41ac-8168-66c36c63e588
+(hbnb) show User 13d3b979-8bf8-41ac-8168-66c36c63e588
 ** no instance found **
 (hbnb)
 ```
@@ -227,10 +227,9 @@ show <class> <id>
 
 ```bash
 (hbnb) create BaseModel
-e45ddda9-eb80-4858-99a9-226d4f08a629
+5542b8ff-b423-4051-a850-18269f17ae9d
 (hbnb) all BaseModel
-["[BaseModel] (4c8f7ebc-257f-4ed1-b26b-e7aace459897) [BaseModel] (4c8f7ebc-257f-4ed1-b26b-e7aace459897) {'id': '4c8f7ebc-257f-4ed1-b26b-e7aace459897', 'created_at': datetime.datetime(2021, 11, 13, 22, 19, 19, 447155), 'updated_at': datetime.datetime(2021, 11, 13, 22, 19, 19, 447257), 'name': 'My First Model', 'my_number': 89}"]
-["[BaseMode
+["[BaseModel] (7a22a513-5fa7-491f-9f9b-61ead8e28804) {'id': '7a22a513-5fa7-491f-9f9b-61ead8e28804', 'created_at': datetime.datetime(2024, 1, 13, 17, 25, 21, 674588), 'updated_at': datetime.datetime(2024, 1, 13, 17, 25, 21, 674651)}", "[BaseModel] (5542b8ff-b423-4051-a850-18269f17ae9d) {'id': '5542b8ff-b423-4051-a850-18269f17ae9d', 'created_at': datetime.datetime(2024, 1, 13, 17, 29, 6, 165512), 'updated_at': datetime.datetime(2024, 1, 13, 17, 29, 6, 165552)}"]
 ```
 
 * count
@@ -239,9 +238,9 @@ e45ddda9-eb80-4858-99a9-226d4f08a629
 
 ```bash
 (hbnb) create City
-4e01c33e-2564-42c2-b61c-17e512898bad
+e4b0f916-5710-4ef2-827f-96a0ac88c028
 (hbnb) create City
-e952b772-80a5-41e9-b728-6bc4dc5c21b4
+7b2976bb-fba8-46f6-a2ac-38110a433859
 (hbnb) count City
 2
 (hbnb)
@@ -254,14 +253,14 @@ e952b772-80a5-41e9-b728-6bc4dc5c21b4
 
 ```bash
 (hbnb) create User
-1afa163d-486e-467a-8d38-3040afeaa1a1
-(hbnb) update User 1afa163d-486e-467a-8d38-3040afeaa1a1 email "aysuarex@gmail.com"
-(hbnb) show User 1afa163d-486e-467a-8d38-3040afeaa1a1
-[User] (s) [User] (1afa163d-486e-467a-8d38-3040afeaa1a1) {'id': '1afa163d-486e-467a-8d38-3040afeaa1a1', 'created_at': datetime.datetime(2021, 11, 14, 23, 42, 10, 502157), 'updated_at': datetime.datetime(2021, 11, 14, 23, 42, 10, 502186), 'email': 'aysuarex@gmail.com'}
+e74a5696-daee-40a4-9605-a17596caf405
+(hbnb) update User e74a5696-daee-40a4-9605-a17596caf405 email "Kouekpro@gmail.com"
+(hbnb) show User e74a5696-daee-40a4-9605-a17596caf405
+[User] (e74a5696-daee-40a4-9605-a17596caf405) {'id': 'e74a5696-daee-40a4-9605-a17596caf405', 'created_at': datetime.datetime(2024, 1, 13, 17, 31, 48, 263928), 'updated_at': datetime.datetime(2024, 1, 13, 17, 31, 48, 263963), 'email': 'Kouekpro@gmail.com'}
 (hbnb)
 
 ```
-## Authors
+## Author
 <details>
     <summary>Kouekam Yann Cedrick</summary>
     <ul>
